@@ -1,0 +1,11 @@
+D:\Document\GameProject\.mono\temp\bin\ExportRelease\Game.dll
+D:\Document\GameProject\.mono\temp\bin\ExportRelease\Game.pdb
+D:\Document\GameProject\.mono\temp\bin\ExportRelease\Newtonsoft.Json.dll
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.csproj.AssemblyReference.cache
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.AssemblyInfoInputs.cache
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.AssemblyInfo.cs
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.csproj.CoreCompileInputs.cache
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.csproj.CopyComplete
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.dll
+D:\Document\GameProject\.mono\temp\obj\ExportRelease\Game.pdb

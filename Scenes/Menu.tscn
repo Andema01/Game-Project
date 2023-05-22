@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scripts/ScriptButton.cs" type="Script" id=1]
+[ext_resource path="res://Fonts/FuzzyBubbles-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Fonts/arial.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 80
+font_data = ExtResource( 2 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.0
+margin_top = 3.0
+margin_right = 1.0
+margin_bottom = 3.0
+
+[node name="Buttons" type="VBoxContainer" parent="."]
+margin_left = 100.0
+margin_top = 300.0
+margin_right = 300.0
+margin_bottom = 350.0
+custom_constants/separation = 50
+
+[node name="Play" type="Button" parent="Buttons"]
+margin_right = 300.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 300, 40 )
+text = "Play"
+script = ExtResource( 1 )
+
+[node name="Setting" type="Button" parent="Buttons"]
+margin_top = 90.0
+margin_right = 300.0
+margin_bottom = 130.0
+rect_min_size = Vector2( 300, 40 )
+custom_fonts/font = SubResource( 3 )
+text = "Настройки"
+script = ExtResource( 1 )
+
+[node name="Exit" type="Button" parent="Buttons"]
+margin_top = 180.0
+margin_right = 300.0
+margin_bottom = 220.0
+rect_min_size = Vector2( 300, 40 )
+text = "Exit"
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 100.0
+margin_top = 80.0
+margin_right = 523.0
+margin_bottom = 180.0
+rect_min_size = Vector2( 300, 60 )
+custom_fonts/font = SubResource( 2 )
+text = "Healer Cat"
+
+[connection signal="pressed" from="Buttons/Play" to="Buttons/Play" method="_on_Play_pressed"]
+[connection signal="pressed" from="Buttons/Setting" to="Buttons/Setting" method="_on_Setting_pressed"]
+[connection signal="pressed" from="Buttons/Exit" to="Buttons/Exit" method="_on_Exit_pressed"]
